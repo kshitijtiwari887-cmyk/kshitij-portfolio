@@ -7,6 +7,8 @@
     <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Load Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMDJ8vVlYJFYgR8S36zFmx3E9c6sFq4V3j2b4A2F0pM3P6P4K3M3O3D3N3O3D3" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         /* Custom styles for the dark theme and font */
         :root {
@@ -93,7 +95,7 @@
 
         <!-- 2. About Section (Short and Focused) -->
         <section id="about" class="mb-24">
-            <h2 class="text-3xl font-bold mb-6 text-white border-b-2 border-primary-color pb-2 inline-block">About Me</h2>
+            <h2 class="text-3xl font-bold mb-6 text-white border-b-2 border-primary-color pb-2 inline-block">About Me </h2>
             <div class="card p-6 rounded-xl text-gray-300 text-lg leading-relaxed">
                 <p class="mb-4 font-semibold text-white">ɪ ᴀᴍ ᴀ ᴘᴀꜱꜱɪᴏɴᴀᴛᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴡʜᴏ ʙᴇʟɪᴇᴠᴇꜱ ᴛʜᴀᴛ ᴄᴏᴅɪɴɢ ɪꜱ ɴᴏᴛ ᴊᴜꜱᴛ ᴀ ꜱᴋɪʟʟ, ʙᴜᴛ ᴀ ᴡᴀʏ ᴛᴏ ʙʀɪɴɢ ɪᴅᴇᴀꜱ ᴛᴏ ʟɪꜰᴇ ᴀɴᴅ ꜱᴏʟᴠᴇ ʀᴇᴀʟ-ᴡᴏʀʟᴅ ᴘʀᴏʙʟᴇᴍꜱ.
 </p>
@@ -110,7 +112,7 @@
 
                 <!-- Core Skills -->
                 <div class="card p-6 rounded-xl">
-                    <h3 class="text-xl font-semibold mb-4 text-primary-color">Core & Backend Fundamentals</h3>
+                    <h3 class="text-xl font-semibold mb-4 text-primary-color">Core & Backend Fundamentals </h3>
                     <div class="flex flex-wrap gap-2">
                         <span class="skill-badge">Java</span>
                         <span class="skill-badge">Python</span>
@@ -150,11 +152,12 @@
         <section id="projects" class="mb-24">
             <h2 class="text-3xl font-bold mb-6 text-white border-b-2 border-primary-color pb-2 inline-block">Featured Projects</h2>
 
-            <!-- Project Filter Buttons -->
+            <!-- Project Filter Buttons (Updated counts and added AI filter) -->
             <div class="mb-8 flex space-x-4">
-                <button data-filter="all" class="filter-btn bg-primary-color text-black px-4 py-2 rounded-lg font-semibold transition hover:opacity-80">All (5)</button>
+                <button data-filter="all" class="filter-btn bg-primary-color text-black px-4 py-2 rounded-lg font-semibold transition hover:opacity-80">All (6)</button>
                 <button data-filter="web" class="filter-btn bg-gray-700 text-white px-4 py-2 rounded-lg font-semibold transition hover:bg-primary-color hover:text-black">Web Development (3)</button>
                 <button data-filter="ds" class="filter-btn bg-gray-700 text-white px-4 py-2 rounded-lg font-semibold transition hover:bg-primary-color hover:text-black">DSA/Core (2)</button>
+                <button data-filter="ai" class="filter-btn bg-gray-700 text-white px-4 py-2 rounded-lg font-semibold transition hover:bg-primary-color hover:text-black">AI/ML (1)</button>
             </div>
 
             <!-- Project Grid -->
@@ -166,7 +169,9 @@
                     <div class="p-4">
                         <h4 class="text-xl font-semibold mb-2 text-white">kshitij.dev | Personal Portfolio</h4>
                         <p class="text-gray-400 text-sm mb-3">
-                            Built using Vanilla JS and Tailwind CSS. Showcases **high-quality UI/UX and ensures lightning-fast loading speed**.
+                            𝐁𝐮𝐢𝐥𝐭 𝐮𝐬𝐢𝐧𝐠 𝐕𝐚𝐧𝐢𝐥𝐥𝐚 𝐉𝐒 𝐚𝐧𝐝 𝐓𝐚𝐢𝐥𝐰𝐢𝐧𝐝 𝐂𝐒𝐒. 𝐒𝐡𝐨𝐰𝐜𝐚𝐬𝐞𝐬 𝐡𝐢𝐠𝐡-𝐪𝐮𝐚𝐥𝐢𝐭𝐲 𝐔𝐈/𝐔𝐗 𝐚𝐧𝐝 𝐞𝐧𝐬𝐮𝐫𝐞𝐬 𝐥𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠-𝐟𝐚𝐬𝐭 𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐬𝐩𝐞𝐞𝐝.
+
+
                         </p>
                         <div class="flex justify-between items-center text-xs text-gray-500">
                             <span class="flex gap-2">
@@ -184,7 +189,7 @@
                     <div class="p-4">
                         <h4 class="text-xl font-semibold mb-2 text-white">Lead Generation Landing Page</h4>
                         <p class="text-gray-400 text-sm mb-3">
-                            Designed to **maximize conversion** with a clear CTA, pricing structure, and fully responsive layout for mobile users.
+                            𝗗𝗲𝘀𝗶𝗴𝗻𝗲𝗱 𝘁𝗼 𝗺𝗮𝘅𝗶𝗺𝗶𝘇𝗲 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗶𝗼𝗻 𝘄𝗶𝘁𝗵 𝗮 𝗰𝗹𝗲𝗮𝗿 𝗖𝗧𝗔, 𝗽𝗿𝗶𝗰𝗶𝗻𝗴 𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲, 𝗮𝗻𝗱 𝗳𝘂𝗹𝗹𝘆 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝘃𝗲 𝗹𝗮𝘆𝗼𝘂𝘁 𝗳𝗼𝗿 𝗺𝗼𝗯𝗶𝗹𝗲 𝘂𝘀𝗲𝗿𝘀.
                         </p>
                         <div class="flex justify-between items-center text-xs text-gray-500">
                             <span class="flex gap-2">
@@ -202,7 +207,7 @@
                     <div class="p-4">
                         <h4 class="text-xl font-semibold mb-2 text-white">Data Structures & Algorithms Repository</h4>
                         <p class="text-gray-400 text-sm mb-3">
-                            Core implementations of Trees, Graphs, and Dynamic Programming problems in **Java and C++** for competitive programming.
+                            𝗖𝗼𝗿𝗲 𝗶𝗺𝗽𝗹𝗲𝗺𝗲𝗻𝘁𝗮𝘁𝗶𝗼𝗻𝘀 𝗼𝗳 𝗧𝗿𝗲𝗲𝘀, 𝗚𝗿𝗮𝗽𝗵𝘀, 𝗮𝗻𝗱 𝗗𝘆𝗻𝗮𝗺𝗶𝗰 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝘀 𝗶𝗻 𝗝𝗮𝘃𝗮 𝗮𝗻𝗱 𝗖++ 𝗳𝗼𝗿 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗲 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴.
                         </p>
                         <div class="flex justify-between items-center text-xs text-gray-500">
                             <span class="flex gap-2">
@@ -214,13 +219,13 @@
                     </div>
                 </div>
 
-                 <!-- Project 4: Simple JS Game -->
-                 <div class="project-card card rounded-xl overflow-hidden" data-category="web">
+                <!-- Project 4: Simple JS Game -->
+                <div class="project-card card rounded-xl overflow-hidden" data-category="web">
                     <img src="https://ary.fastnet.net.sa/home/assets/img/portfolio/guessinggame.png" alt="Game Screenshot" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h4 class="text-xl font-semibold mb-2 text-white">Vanilla JS Guessing Game</h4>
                         <p class="text-gray-400 text-sm mb-3">
-                            A simple, fun browser game demonstrating pure JavaScript DOM manipulation and basic game logic implementation.
+                           𝗔 𝘀𝗶𝗺𝗽𝗹𝗲, 𝗳𝘂𝗻 𝗯𝗿𝗼𝘄𝘀𝗲𝗿 𝗴𝗮𝗺𝗲 𝗱𝗲𝗺𝗼𝗻𝘀𝘁𝗿𝗮𝘁𝗶𝗻𝗴 𝗽𝘂𝗿𝗲 𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁 𝗗𝗢𝗠 𝗺𝗮𝗻𝗶𝗽𝘂𝗹𝗮𝘁𝗶𝗼𝗻 𝗮𝗻𝗱 𝗯𝗮𝘀𝗶𝗰 𝗴𝗮𝗺𝗲 𝗹𝗼𝗴𝗶𝗰 𝗶𝗺𝗽𝗹𝗲𝗺𝗲𝗻𝘁𝗮𝘁𝗶𝗼𝗻.
                         </p>
                         <div class="flex justify-between items-center text-xs text-gray-500">
                             <span class="flex gap-2">
@@ -238,7 +243,7 @@
                     <div class="p-4">
                         <h4 class="text-xl font-semibold mb-2 text-white">Student Management System (DBMS)</h4>
                         <p class="text-gray-400 text-sm mb-3">
-                            Designed and implemented relational database schema, complex queries, and normalized data for efficiency.
+                           𝗗𝗲𝘀𝗶𝗴𝗻𝗲𝗱 𝗮𝗻𝗱 𝗶𝗺𝗽𝗹𝗲𝗺𝗲𝗻𝘁𝗲𝗱 𝗿𝗲𝗹𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝘀𝗰𝗵𝗲𝗺𝗮, 𝗰𝗼𝗺𝗽𝗹𝗲𝘅 𝗾𝘂𝗲𝗿𝗶𝗲𝘀, 𝗮𝗻𝗱 𝗻𝗼𝗿𝗺𝗮𝗹𝗶𝘇𝗲𝗱 𝗱𝗮𝘁𝗮 𝗳𝗼𝗿 𝗲𝗳𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝘆.
                         </p>
                         <div class="flex justify-between items-center text-xs text-gray-500">
                             <span class="flex gap-2">
@@ -246,6 +251,24 @@
                                 <span class="tag bg-red-900 text-red-300">DBMS</span>
                             </span>
                             <a href="#" class="text-primary-color hover:underline font-medium" onclick="showModal('GitHub Documentation')">View Docs &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: AI/ML Project (NEWLY ADDED) -->
+                <div class="project-card card rounded-xl overflow-hidden" data-category="ai">
+                    <img src="https://template.canva.com/EAGUOrJ-V1w/2/0/1600w-Y3V3eyyvtbk.jpg" alt="AI Project Screenshot" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="text-xl font-semibold mb-2 text-white">AI-Powered Text Classification Model</h4>
+                        <p class="text-gray-400 text-sm mb-3">
+                            𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐚 𝐏𝐲𝐭𝐡𝐨𝐧 𝐦𝐨𝐝𝐞𝐥 𝐮𝐬𝐢𝐧𝐠 𝐒𝐜𝐢𝐤𝐢𝐭-𝐥𝐞𝐚𝐫𝐧 𝐚𝐧𝐝 𝐍𝐚𝐭𝐮𝐫𝐚𝐥 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 (𝐍𝐋𝐏) 𝐭𝐞𝐜𝐡𝐧𝐢𝐪𝐮𝐞𝐬 𝐟𝐨𝐫 𝐬𝐞𝐧𝐭𝐢𝐦𝐞𝐧𝐭 𝐚𝐧𝐚𝐥𝐲𝐬𝐢𝐬 𝐨𝐧 𝐬𝐨𝐜𝐢𝐚𝐥 𝐦𝐞𝐝𝐢𝐚 𝐝𝐚𝐭𝐚.
+                        </p>
+                        <div class="flex justify-between items-center text-xs text-gray-500">
+                            <span class="flex gap-2">
+                                <span class="tag bg-indigo-900 text-indigo-300">Python</span>
+                                <span class="tag bg-indigo-900 text-indigo-300">NLP/ML</span>
+                            </span>
+                            <a href="#" class="text-primary-color hover:underline font-medium" onclick="showModal('GitHub Code Repository for AI Project')">View Code &rarr;</a>
                         </div>
                     </div>
                 </div>
@@ -262,11 +285,43 @@
                 <div class="card p-8 rounded-xl">
                     <h3 class="text-2xl font-semibold text-primary-color mb-4">ʀᴇᴀᴅʏ ᴛᴏ ʜɪʀᴇ ᴍᴇ?</h3>
                     <p class="text-gray-300 mb-6">
-                       "𝕀’𝕞 𝕔𝕦𝕣𝕣𝕖𝕟𝕥𝕝𝕪 𝕠𝕡𝕖𝕟 𝕥𝕠 𝕥𝕒𝕜𝕚𝕟𝕘 𝕠𝕟 𝕟𝕖𝕨 𝕗𝕣𝕖𝕖𝕝𝕒𝕟𝕔𝕖 𝕡𝕣𝕠𝕛𝕖𝕔𝕥𝕤, 𝕨𝕙𝕖𝕣𝕖 𝕀 𝕔𝕒𝕟 𝕙𝕖𝕝𝕡 𝕓𝕣𝕚𝕟𝕘 𝕪𝕠𝕦𝕣 𝕚𝕕𝕖𝕒𝕤 𝕥𝕠 𝕝𝕚𝕗𝕖 𝕨𝕚𝕥𝕙 𝕔𝕝𝕖𝕒𝕟, 𝕤𝕔𝕒𝕝𝕒𝕓𝕝𝕖, 𝕒𝕟𝕕 𝕖𝕗𝕗𝕚𝕔𝕚𝕖𝕟𝕥 𝕔𝕠𝕕𝕖. 𝔽𝕣𝕠𝕞 𝕦𝕟𝕕𝕖𝕣𝕤𝕥𝕒𝕟𝕕𝕚𝕟𝕘 𝕪𝕠𝕦𝕣 𝕣𝕖𝕢𝕦𝕚𝕣𝕖𝕞𝕖𝕟𝕥𝕤 𝕥𝕠 𝕒𝕝𝕚𝕘𝕟𝕚𝕟𝕘 𝕨𝕚𝕥𝕙 𝕪𝕠𝕦𝕣 𝕘𝕠𝕒𝕝𝕤 𝕒𝕟𝕕 𝕥𝕚𝕞𝕖𝕝𝕚𝕟𝕖, 𝕀 𝕞𝕒𝕜𝕖 𝕤𝕦𝕣𝕖 𝕖𝕧𝕖𝕣𝕪 𝕕𝕖𝕥𝕒𝕚𝕝 𝕚𝕤 𝕔𝕠𝕧𝕖𝕣𝕖𝕕. 𝕎𝕚𝕥𝕙 𝕒 𝕤𝕥𝕣𝕠𝕟𝕘 𝕗𝕠𝕔𝕦𝕤 𝕠𝕟 𝕔𝕝𝕖𝕒𝕣 𝕔𝕠𝕞𝕞𝕦𝕟𝕚𝕔𝕒𝕥𝕚𝕠𝕟, 𝕥𝕚𝕞𝕖𝕝𝕪 𝕕𝕖𝕝𝕚𝕧𝕖𝕣𝕪, 𝕒𝕟𝕕 𝕓𝕦𝕚𝕝𝕕𝕚𝕟𝕘 𝕣𝕖𝕤𝕡𝕠𝕟𝕤𝕚𝕧𝕖, 𝕦𝕤𝕖𝕣-𝕗𝕣𝕚𝕖𝕟𝕕𝕝𝕪 𝕤𝕠𝕝𝕦𝕥𝕚𝕠𝕟𝕤, 𝕀 𝕒𝕚𝕞 𝕥𝕠 𝕔𝕣𝕖𝕒𝕥𝕖 𝕨𝕠𝕣𝕜 𝕥𝕙𝕒𝕥 𝕟𝕠𝕥 𝕠𝕟𝕝𝕪 𝕞𝕖𝕖𝕥𝕤 𝕖𝕩𝕡𝕖𝕔𝕥𝕒𝕥𝕚𝕠𝕟𝕤 𝕓𝕦𝕥 𝕒𝕕𝕕𝕤 𝕣𝕖𝕒𝕝 𝕧𝕒𝕝𝕦𝕖 𝕥𝕠 𝕪𝕠𝕦𝕣 𝕓𝕦𝕤𝕚𝕟𝕖𝕤𝕤."
+                        "𝕀’𝕞 𝕔𝕦𝕣𝕣𝕖𝕟𝕥𝕝𝕪 𝕠𝕡𝕖𝕟 𝕥𝕠 𝕥𝕒𝕜𝕚𝕟𝕘 𝕠𝕟 𝕟𝕖𝕨 𝕗𝕣𝕖𝕖𝕝𝕒𝕟𝕔𝕖 𝕡𝕣𝕠𝕛𝕖𝕔𝕥𝕤, 𝕨𝕙𝕖𝕣𝕖 𝕀 𝕔𝕒𝕟 𝕙𝕖𝕝𝕡 𝕓𝕣𝕚𝕟𝕘 𝕪𝕠𝕦𝕣 𝕚𝕕𝕖𝕒𝕤 𝕥𝕠 𝕝𝕚𝕗𝕖 𝕨𝕚𝕥𝕙 𝕔𝕝𝕖𝕒𝕟, 𝕤𝕔𝕒𝕝𝕒𝕓𝕝𝕖, 𝕒𝕟𝕕 𝕖𝕗𝕗𝕚𝕔𝕚𝕖𝕟𝕥 𝕔𝕠𝕕𝕖. 𝔽𝕣𝕠𝕞 𝕦𝕟𝕕𝕖𝕣𝕤𝕥𝕒𝕟𝕕𝕚𝕟𝕘 𝕪𝕠𝕦𝕣 𝕣𝕖𝕢𝕦𝕚𝕣𝕖𝕞𝕖𝕟𝕥𝕤 𝕥𝕠 𝕒𝕝𝕚𝕘𝕟𝕚𝕟𝕘 𝕨𝕚𝕥𝕙 𝕪𝕠𝕦𝕣 𝕘𝕠𝕒𝕝𝕤 𝕒𝕟𝕕 𝕥𝕚𝕞𝕖𝕝𝕚𝕟𝕖, 𝕀 𝕞𝕒𝕜𝕖 𝕤𝕦𝕣𝕖 𝕖𝕧𝕖𝕣𝕪 𝕕𝕖𝕥𝕒𝕚𝕝 𝕚𝕤 𝕔𝕠𝕧𝕖𝕣𝕖𝕕. 𝕎𝕚𝕥𝕙 𝕒 𝕤𝕥𝕣𝕠𝕟𝕘 𝕗𝕠𝕔𝕦𝕤 𝕠𝕟 𝕔𝕝𝕖𝕒𝕣 𝕔𝕠𝕞𝕞𝕦𝕟𝕚𝕔𝕒𝕥𝕚𝕠𝕟, 𝕥𝕚𝕞𝕖𝕝𝕪 𝕕𝕖𝕝𝕚𝕧𝕖𝕣𝕪, 𝕒𝕟𝕕 𝕓𝕦𝕚𝕝𝕕𝕚𝕟𝕘 𝕣𝕖𝕤𝕡𝕠𝕟𝕤𝕚𝕧𝕖, 𝕦𝕤𝕖𝕣-𝕗𝕣𝕚𝕖𝕟𝕕𝕝𝕪 𝕤𝕠𝕝𝕦𝕥𝕚𝕠𝕟𝕤, 𝕀 𝕒𝕚𝕞 𝕥𝕠 𝕔𝕣𝕖𝕒𝕥𝕖 𝕨𝕠𝕣𝕜 𝕥𝕙𝕒𝕥 𝕟𝕠𝕥 𝕠𝕟𝕝𝕪 𝕞𝕖𝕖𝕥𝕤 𝕖𝕩𝕡𝕖𝕔𝕥𝕒𝕥𝕚𝕠𝕟𝕤 𝕓𝕦𝕥 𝕒𝕕𝕕𝕤 𝕣𝕖𝕒𝕝 𝕧𝕒𝕝𝕦𝕖 𝕥𝕠 𝕪𝕠𝕦𝕣 𝕓𝕦𝕤𝕚𝕟𝕖𝕤𝕤."
                     </p>
-                    <div class="space-y-3 text-gray-300">
-                        <p><strong>𝐄𝐦𝐚𝐢𝐥:- </strong> <a href=" kshitijji001@gmail.com" class="hover:text-primary-color"> 𝐤𝐬𝐡𝐢𝐭𝐢𝐣𝐣𝐢𝟎𝟎𝟏@𝐠𝐦𝐚𝐢𝐥.𝐜𝐨𝐦</a></p>
-                        <p><strong>𝐋𝐢𝐧𝐤𝐞𝐝𝐈𝐧:- </strong> <a href="https://www.linkedin.com/in/kshitijtiwari5362" target="_blank" class="hover:text-primary-color">𝗸𝘀𝗵𝗶𝘁𝗶𝗷𝘁𝗶𝘄𝗮𝗿𝗶𝟱𝟯𝟲𝟮</a></p>
+                    
+                    <!-- Updated Social Links with Icons -->
+                    <h4 class="text-lg font-semibold text-white mb-3">Direct Connect</h4>
+                    <div class="space-y-4 text-gray-300">
+                        <!-- Email Link -->
+                        <p class="flex items-center">
+                            <i class="fas fa-envelope text-xl mr-3 text-primary-color w-6 text-center"></i>
+                            <a href="mailto:kshitijji001@gmail.com" class="hover:text-primary-color transition">
+                                <strong class="text-white">𝐄𝐦𝐚𝐢𝐥:</strong> 𝐤𝐬𝐡𝐢𝐭𝐢𝐣𝐣𝐢𝟎𝟎𝟏@𝐠𝐦𝐚𝐢𝐥.𝐜𝐨𝐦
+                            </a>
+                        </p>
+
+                        <!-- LinkedIn Link -->
+                        <p class="flex items-center">
+                            <i class="fab fa-linkedin-in text-xl mr-3 text-primary-color w-6 text-center"></i>
+                            <a href="https://www.linkedin.com/in/kshitijtiwari5362" target="_blank" class="hover:text-primary-color transition">
+                                <strong class="text-white">𝐋𝐢𝐧𝐤𝐞𝐝𝐈𝐧:</strong> 𝗸𝘀𝗵𝗶𝘁𝗶𝗷𝘁𝗶𝘄𝗮𝗿𝗶𝟱𝟯𝟲𝟮
+                            </a>
+                        </p>
+
+                        <!-- GitHub Link (Placeholder URL) -->
+                        <p class="flex items-center">
+                            <i class="fab fa-github text-xl mr-3 text-primary-color w-6 text-center"></i>
+                            <a href="https://github.com/YourGitHubUsername" target="_blank" class="hover:text-primary-color transition">
+                                <strong class="text-white">𝐆𝐢𝐭𝐇𝐮𝐛:</strong> https://github.com/kshitijtiwari887-cmyk
+                            </a>
+                        </p>
+
+                        <!-- Instagram Link (Placeholder URL) -->
+                        <p class="flex items-center">
+                            <i class="fab fa-instagram text-xl mr-3 text-primary-color w-6 text-center"></i>
+                            <a href="https://www.instagram.com/YourInstagramHandle" target="_blank" class="hover:text-primary-color transition">
+                                <strong class="text-white">𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦:</strong> It'Human|Learning Point
+                            </a>
+                        </p>
                     </div>
                 </div>
 
@@ -399,6 +454,3 @@
     </script>
 </body>
 </html>
-
-
-
